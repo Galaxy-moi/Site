@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(194, 189, 189);
+}
+.cadre
+{
+    width: 60%; 
+    background-color: snow;
+    border:3px solid black;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+#cp
+{
+    margin : 0 auto;
+}
+h1
+{
+    color:black;
+    text-decoration: underline;
+    font-size:1cm;
+    
+}
+
+h2
+{
+    color: black;
+    text-decoration: underline;
+}
+
+h3
+{
+    color:black;
+    text-decoration: underline;
+    font-size:0.5cm;
+}
+p
+{
+    color:black;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+li
+{   
+    color:black;
+    font-family:Cambria, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid #333;
+    width: 10cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 15px;
+}
+.gt_table
+{
+    background-color: snow;
+}

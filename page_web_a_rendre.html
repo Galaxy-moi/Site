@@ -1,0 +1,158 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style_3.css" rel="stylesheet" type="text/css">
+
+    <title> Cours HTML </title>
+</head>
+
+<body>
+    <div class="cadre" id="cp">
+        <title> Cours HTML </title>
+
+
+        <h1> Créer ses propres pages web</h1>
+
+
+
+        <h2>1.Introduction (mettre tous les titre pareil en css)</h2>
+
+        <p>Nous consultons tous les jours des sites Web. Pour les sites les plus connus, on peuts’apercevoir que
+            l’affichage et les fonctionnalités sont identiques quel que soit le navigateur utilisé (ce n’est pas
+            toujours le cas pour des sites moins connus) à quelques détails près.</p>
+
+        <p>Les pages Web sont créées à l’aide de langages informatiques. Le respect des règles définiespour ces
+            langages permet de créer des pages WEB qui pourront être lues correctement quel que soit le navigateur.</p>
+
+        <p>Pour créer la page Web visualisée, ont été utilisés les langages HTML et CSS.Le langage HTML a été créé en
+            1991 par Tim Berners-Lee. Ce dernier a aussi créé le World Wide WebConsortium (W3C) qui définit les
+            nouvelles versions et les standards des langages liés au Web.</p>.
+
+
+        <h2>2.Créer ses propres pages web (mettre tous les titre pareil en css)</h2>
+
+
+        <h3>2.1 HTML et éditeurs</h3>
+
+        <p>Pour créer des pages Web, on peut utiliser:</p>
+        <li>Des logiciels WYSIWYG (What You See Is What You Get); ce sont des programmes(Mozilla Composer, Dreamweaver
+            et même les traitements de texte) qui permettent de créer des sites sans apprendre de langage particulier.
+            Les pages web sont générés automatiquement. Permettant une création plus rapide au démarrage, ils présentent
+            cependant l’inconvénient de modifications plus laborieuses (le codage n’est pas optimisé,rendant toute
+            modification problématique)
+            Des éditeurs de texte, ce sont des programmes dédiés à l'écriture de code (pas seulement HTML ou CSS) plus
+            ou moins évolués (les fonctionnalités de certains facilitent l'écriture du code). Nous utiliserons l'éditeur
+            de texte Visual Studio Code Pour télécharger ce logiciel, il faut se rendre à l’adresse suivante :
+            <a href="https://code.visualstudio.com"> https://code.visualstudio.com </a>
+            </p>
+
+            <h3>2.2 Ma première page</h3>
+        <li>Dans vos documents, créer un dossier nommé monPremierSite. Puis dans ce dossier, créer à nouveau un dossier
+            nommé img pour les images.</li>
+        <li>Ouvrir Visual Studio Code et créer un nouveau document. Pour cela, il faut cliquer sur File dans la barre
+            d’outil puis New File>.</li>
+        <li>Puis saisir le code suivant (ou bien faites un Copier/Coller à partir du TP ) : </li>
+        <h3>2.3 Le langage HTML</h3>
+        <p>Le langage HTML (HyperText Markup Language) permet de concevoir des documents Web. Ce langage de
+            programmation descriptif est composé d'éléments. Un élément HTML est composé d'une balise ouvrante et d'une
+            balise fermante afin de délimiter la zone de texte concernée par l'élément en question.
+
+            Par exemple, l'élément p, que nous avons utilisé délimite un paragraphe de texte, a pour balise ouvrante
+            &lt; p &gt; et pour balise fermante &lt; /p&gt;. Il y a également la balise &lt; !DOCTYPE html &gt;. Le
+            doctype (pour Document Type Declaration) permet de renseigner le navigateur Web sur la version de HTML
+            utilisée par le document Web. Le doctype utilisé dans l'exemple fait référence à HTML5. Un fichier HTML est
+            composé de deux parties.
+
+            &lt;head &gt; et &lt;/head &gt; : les éléments contenus dans l'entête n'ont pas vocation à être affichés
+            sauf l'élément title dont le contenu apparaît dans l'onglet du navigateur Web. Les informations contenues
+            dans l'entête renseignent sur l'auteur et le contenu du document.
+
+            &lt; body &gt; et &lt; /body &gt; : l'ensemble des informations contenues entre ces balises sont affichées
+            dans la fenêtre du navigateur Web. </p>
+        <h3>2.4 Structuration des documents</h3>
+        <li>Titre de section : les balises h1, h3, h3, h4, h5, h6 permettent de définir des titres de sections,
+            sous-sections, etc jusqu’à six niveaux.</li>
+        <li>Balises de texte :</li>
+
+        <table class="gt_table" style="">
+            <tbody>
+                <tr>
+                    <td style="">
+                        Balises</td>
+                    <td style="">Rôle</td>
+                </tr>
+                <tr>
+                    <td style="">&lt; b > et &lt;/b></td>
+                    <td style="">Mise en gras</td>
+                </tr>
+                <tr>
+                    <td style="">&lt;i > et &lt;/i></td>
+                    <td style="">Mise en italique</td>
+                </tr>
+                <tr>
+                    <td style="">&lt;u > et &lt;/u ></td>
+                    <td style="">Soulignement</td>
+                </tr>
+                <tr>
+                    <td style="">&lt;sub > et &lt;/sub ></td>
+                    <td style="">Mise en indice</td>
+                </tr>
+                <tr>
+                    <td style="">&lt;sup > et &lt;/sup ></td>
+                    <td style="">Mise en exposant</td>
+                </tr>
+                <tr>
+                    <td style="">&lt;code > et &lt;/code ></td>
+                    <td style="">Code</td>
+                </tr>
+                <tr>
+                    <td style="">&lt;mark > et &lt;/mark></td>
+                    <td style="">Texte surligné;</td>
+                </tr>
+            </tbody>
+        </table>
+        <li>Structuration du document. La balise &lt;p> représente un paragraphe. Les espaces et les retours à la lignes
+            sont ignorés. Chaque nouvel élément p crée un nouveau paragraphe.
+            Dans la balise body, on peut placer l’attribut bgcolor="# 33CCFF". Celui-ci permet de colorer le fond
+            d’écran d’une certaine couleur (ici: le bleu clair).
+            Attention: la couleur est écrite en hexadécimal.
+            Cela nous donne:</li>
+        <h3>2.5 Travail à faire</h3>
+        <h3>Travail à faire</h3>
+        <ol>
+            <li>Rechercher sur internet et écrire ci-dessous, le code hexadécimal du:</li>
+            <ul>
+                <li>du blanc : ...........</li>
+                <li>du vert : ...........</li>
+                <li>du rouge : ...........</li>
+                <li>du jaune: ...........</li>
+                <li>du magenta : .........</li>
+                <li>du cyan : ..........</li>
+                <li>du gris foncé : ......</li>
+            </ul>
+            <li>Réaliser une page internet qui se nommera
+                <i>pageWeb2</i> et qui ressemble à celle ci-dessous avec :
+                <ul>
+                    <li> un titre ; </li>
+                    <li>deux paragraphes écrits séparé par un ligne ;</li>
+                    <li>un fond d’écran de couleur gris ;</li>
+                    <li>un mot mis en évidence.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>2.6 Les images </h3>
+        <h3>2.7 Les liens</h3>
+        <h3>2.8 Travail à faire</h3>
+        <h3>2.Les listes</h3>
+        <h3>2.10 Pour en savoir plus...</h3>
+
+        <hr />
+    </div>
+</body>
+</head>
+
+</html>
