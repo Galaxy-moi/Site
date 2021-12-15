@@ -66,19 +66,19 @@
         <h3>2.3 Le langage HTML</h3>
         <p>Le langage HTML (HyperText Markup Language) permet de concevoir des documents Web. Ce langage de
             programmation descriptif est composé d'éléments. Un élément HTML est composé d'une balise ouvrante et d'une
-            balise fermante afin de délimiter la zone de texte concernée par l'élément en question.
+            balise fermante afin de délimiter la zone de texte concernée par l'élément en question.</p>
 
-            Par exemple, l'élément p, que nous avons utilisé délimite un paragraphe de texte, a pour balise ouvrante
+        <p>Par exemple, l'élément p, que nous avons utilisé délimite un paragraphe de texte, a pour balise ouvrante
             &lt; p &gt; et pour balise fermante &lt; /p&gt;. Il y a également la balise &lt; !DOCTYPE html &gt;. Le
             doctype (pour Document Type Declaration) permet de renseigner le navigateur Web sur la version de HTML
             utilisée par le document Web. Le doctype utilisé dans l'exemple fait référence à HTML5. Un fichier HTML est
-            composé de deux parties.
+            composé de deux parties.</p>
 
-            &lt;head &gt; et &lt;/head &gt; : les éléments contenus dans l'entête n'ont pas vocation à être affichés
+        <p>&lt;head &gt; et &lt;/head &gt; : les éléments contenus dans l'entête n'ont pas vocation à être affichés
             sauf l'élément title dont le contenu apparaît dans l'onglet du navigateur Web. Les informations contenues
-            dans l'entête renseignent sur l'auteur et le contenu du document.
+            dans l'entête renseignent sur l'auteur et le contenu du document.</p>
 
-            &lt; body &gt; et &lt; /body &gt; : l'ensemble des informations contenues entre ces balises sont affichées
+        <p>&lt; body &gt; et &lt; /body &gt; : l'ensemble des informations contenues entre ces balises sont affichées
             dans la fenêtre du navigateur Web. </p>
         <h3>2.4 Structuration des documents</h3>
         <li>Titre de section : les balises h1, h3, h3, h4, h5, h6 permettent de définir des titres de sections,
@@ -129,7 +129,7 @@
             Attention: la couleur est écrite en hexadécimal.
             Cela nous donne:</li>
         <h3>2.5 Travail à faire</h3>
-        <h3>Travail à faire</h3>
+        <h3>Travail à faire :</h3>
         <ol>
             <li>Rechercher sur internet et écrire ci-dessous, le code hexadécimal du:</li>
             <ul>
@@ -186,6 +186,7 @@
         <p>Exemple: voir code et résultat précédents</p>
 
         <h3>2.8 Travail à faire</h3>
+
         <p>Réaliser deux pages internet qui ont chacune : </p>
         <li>Un titre ;</li>
         <li>Deux paragraphes ;</li>
@@ -198,9 +199,31 @@
             unordered list). Quelque soit le type de liste, chaque entrée de liste est contenue dans un élément li. Les
             listes peuvent évidemment être imbriquées</p>
         <h3>2.10 Pour en savoir plus...</h3>
+        <p>Pour connaître d’autres balises et d’autres attributs, consulter le site MDN.</p>
         <h2>3. Le CSS (Cascading Style Sheets)</h2>
         <h3>3.1 Introduction</h3>
+        <p>Vous avez remarqué que si nous voulons donner une unité au site, il est nécessaire, pour chaque page, de
+            définir par exemple une police bleue.</p>
+        <p>Or, nous pouvons aussi utiliser une page de style écrite dans un autre langage: le CSS. Le Langage CSS,
+            apparu en 1996, est complémentaire du langage HTML et permet de gérer la mise en forme (l'apparence) des
+            différentes pages d’un site Web (couleur du texte, police, taille du texte, bordures, fond...)</p>
+
+        <p>Ainsi, dans l’exemple précédent, il suffit de créer une page style.css (avec Visual StudioCode par exemple)
+            dans laquelle il écrit que les paragraphes sont en bleu. Toutes les pages html créées appelleront style.css
+            dans l’en-tête (head) de la page grâce à l’instruction :
+            &lt;link href="style.css" rel="stylesheet" type="text /css"></p>
         <h3>3.2 Explications</h3>
+        <p>Ici, on indique que l’élément p (paragraphe) contient du texte aligné des deux côtés (justifié) et de couleur
+            bleue. On indique également que l’élément body (corps de la page HTML) aura un fond d’écran couleur
+            gainsboro
+            c’est-à-dire bleu très clair.</p>
+
+        <p>En CSS:</p>
+
+        <li>Body et p sont nommés selecteur</li>
+        <li>color, text-align, background-color sont nommés propriétés CSS</li>
+        <li>gainsboro, blue, justify sont nommés valeurs</li>
+
         <h3>3.3 La notion de boite</h3>
         <h3>3.4 Quelques propriétés CSS</h3>
         <h3>3.5 Les balises div et span et les class</h3>
