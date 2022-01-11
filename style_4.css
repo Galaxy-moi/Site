@@ -1,0 +1,149 @@
+body{
+    background-color: #99aab5;
+}
+.container{
+    max-width: 900px;
+    background-color : snow;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    }
+
+
+h1
+{
+    color:blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    font-size:1cm;
+    
+}
+
+h2
+{
+    color: #c81d41;
+    text-decoration: underline;
+}
+
+h3
+{
+    color:#555377;
+    text-decoration: underline;
+    font-size:0.5cm;
+}
+h6
+{
+color: black;
+font-size:1cm;
+}
+p
+{
+    color:#555377;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+li
+{   
+    color:#555377;
+    font-family:Cambria, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid #333;
+    width: 10cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 15px;
+}
+img
+{
+    display: block;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gt_table
+{
+    background-color: snow;
+}
+
+
+.demo {
+    border:1px solide #C0C0C0;
+    border-collapse:effondrer;
+    padding:5px;
+                }
+.demo th {
+    border:1px solide #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+                }
+.demo td {
+    border:1px solide #C0C0C0;
+    padding:5px;
+                }
+
+.demo {
+    border:1px solide #C0C0C0;
+    border-collapse:effondrer;
+    padding:5px;
+                }
+.demo th {
+     border:1px solide #C0C0C0;
+     padding:5px;
+     background:#F0F0F0;
+                }
+.demo td {
+    border:1px solide #C0C0C0;
+    padding:5px;
+                }
+
+.img-fluid
+{
+    max-width: 100%;
+    height: auto; 
+}
+
+#centrage 
+{
+    max-width: 50%;
+}
+
+#rectangle{
+    width:auto;
+    height:50px;
+    background:#C0C0C0;
+}
+h5{
+    text-align: right;
+    margin-top: -1.18cm;
+
+}
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #5f497a;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 0px solid #FFFFFF;
+    }
+    
+    
+    .btn:hover {
+        
+    padding: 10px;
+    font-family: arial;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }
